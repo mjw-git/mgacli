@@ -1,0 +1,33 @@
+{
+  "name": "mgacli",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "mg": "./bin/www"
+  },
+  "scripts": {
+    "build": "webpack ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["cli"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.21.0",
+    "@typescript-eslint/parser": "^4.21.0",
+    "eslint": "^7.23.0",
+    "husky": "^6.0.0",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "commander": "^7.2.0",
+    "download-git-repo": "^3.0.2",
+    "figlet": "^1.5.0",
+    "inquirer": "^8.0.0",
+    "mgacli": "^1.0.0",
+    "ora": "^5.4.0"
+  }
+}
